@@ -19,10 +19,17 @@ namespace ValoresEspeciais
             double x = double.PositiveInfinity;
             double y = double.NegativeInfinity;
             float z = float.NaN;
+            int i = short.MaxValue;
+            double p = 2 * double.MaxValue;
+            float f1 , f2 ;
+            f1 = f2 = 10000.0f;
 
             Console.WriteLine(x);
             Console.WriteLine(y);
             Console.WriteLine(z);
+            Console.WriteLine(p);
+            Console.WriteLine(f1 == f2 + 0.0001f);
+            Console.WriteLine((short) ( i + 1));
             Console.WriteLine(maxFloat);
             Console.WriteLine(minFloat);    
             Console.WriteLine(maxInt);
